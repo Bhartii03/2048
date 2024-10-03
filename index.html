@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>2048</h1>
+            <div class="score-board">
+                <div class="score">
+                    <p>Score</p>
+                    <span id="score">0</span>
+                </div>
+                <div class="high-score">
+                    <p>High Score</p>
+                    <span id="highScore">0</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="restart">Restart</button>
+            </div>
+        </div>
+        <div class="grid-container" id="gameBoard">
+            <!-- The 4x4 grid will be generated dynamically -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
